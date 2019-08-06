@@ -1,0 +1,22 @@
+# Make composer packages globally available.
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+
+# Make mysql globally available.
+export PATH="$PATH:/usr/local/opt/mysql@5.7/bin"
+
+# Configure oh-my-zsh.
+# https://gist.github.com/kevin-smets/8568070
+ZSH_THEME="powerlevel10k/powerlevel10k"
+POWERLEVEL9K_MODE="awesome-patched"
+DEFAULT_USER=$(whoami)
+
+# Syntax highlighting
+# https://github.com/zsh-users/zsh-syntax-highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Run p9k_configure to reconfigure.
+source ~/.p10k.zsh
+
+# Load oh-my-zsh.
+export ZSH=$HOME/.oh-my-zsh
+source $ZSH/oh-my-zsh.sh

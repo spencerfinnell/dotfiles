@@ -1,0 +1,7 @@
+# Quck to configs.
+alias dotfiles="cd ~/dotfiles-local"
+
+# Jump.
+alias u="cd ../"
+alias uu="cd ../../"
+alias uuu="cd ../../../"

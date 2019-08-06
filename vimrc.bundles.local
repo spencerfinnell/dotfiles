@@ -1,0 +1,5 @@
+Plug 'svermeulen/vim-easyclip'
+Plug 'mileszs/ack.vim'
+Plug 'rking/ag.vim'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'dkprice/vim-easygrep'

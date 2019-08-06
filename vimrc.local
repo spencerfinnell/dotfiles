@@ -1,0 +1,44 @@
+" remove thoughtbots whitespace chars
+set nolist
+
+" Make Vim more useful
+set nocompatible
+
+" Use the OS clipboard by default (on versions compiled with `+clipboard`)
+set clipboard=unnamed
+
+" Don't add empty newlines at the end of files
+set binary
+set noeol
+
+" better tabbing
+nnoremap H gT
+nnoremap L gt
+nnoremap <C-t> :tabnew<CR>
+nnoremap <C-t> :tabnew<CR>
+
+" enter enter for a blank line
+nmap <CR><CR> o<ESC>
+
+" relative lines
+set relativenumber
+
+" easier indenting
+vnoremap < <gv
+vnoremap > >gv
+
+set autoindent
+syntax on
+filetype on
+filetype indent on
+filetype plugin on
+
+" better cursor
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+
+" silver surfer
+let g:ackprg = 'ag --nogroup --nocolor --column'
+
+" easyclip
+let g:EasyClipUseSubstituteDefaults = 1
