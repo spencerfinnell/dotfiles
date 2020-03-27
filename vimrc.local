@@ -62,5 +62,12 @@ augroup ale
   let g:ale_lint_on_text_changed = 0
   let g:ale_lint_on_enter = 0
 augroup END
+
+let g:ycm_language_server = [ {
+			\ 'name': 'vue',
+			\ 'filetypes': [ 'vue' ],
+			\ 'cmdline': [ '/Users/spencerfinnell/dev/recipe-site/node_modules/.bin/vls'  ]
+			\ } ]
+
 autocmd FileType vue syntax sync fromstart
 autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css.less.pug

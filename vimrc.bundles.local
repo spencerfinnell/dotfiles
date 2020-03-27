@@ -5,4 +5,5 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'dkprice/vim-easygrep'
 Plug 'altercation/vim-colors-solarized'
 Plug 'w0rp/ale', { 'on':  'ALEToggle' }
+Plug 'ycm-core/YouCompleteMe'
 Plug 'posva/vim-vue'
