@@ -1,5 +1,21 @@
 [alias]
   l = log --pretty=colored
+	cp = cherry-pick
+	fo = fetch origin
+	br = branch
+	s = status
+	ch = checkout
+	c = clone
+	d = difftool
+	r = rebase
+	p = push
+	pu = pull
+	ri = rebase -i
+	rc = rebase --continue
+	ra = rebase --abort
+	rhr = reset HEAD --hard
+	pos = push origin -u
+	ra = rebase --abort
 [pretty]
   colored = format:%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset
 [user]
