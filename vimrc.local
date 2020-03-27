@@ -54,3 +54,11 @@ if executable('ag')
   let g:ctrlp_use_caching = 0
 endif  
 let g:ctrlp_working_path_mode = 'ra'
+
+" remove ale
+augroup ale
+  autocmd!
+
+  let g:ale_lint_on_text_changed = 0
+  let g:ale_lint_on_enter = 0
+augroup END
